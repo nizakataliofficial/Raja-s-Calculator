@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CALCULATOR {
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    box-shadow: rgba(0, 3px, 15px, 0.8);
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+input {
+    width: 270px;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: rgba(0, 0, 8px, 0.4);
+    font-size: 35px;
+    color: white;
+    text-align: right;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+button {
+    width: 65px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    border: rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #f67c14;
+}
+
+.Del,
+.Ac {
+    color: #f67c14;
+}
+
+.Del:hover {
+    color: #fff;
+}
+
+.Ac:hover {
+    color: #fff;
+}
+
+.operator {
+    color: #f67c14;
+}
+
+.operator:hover {
+    color: #fff;
+}
+
+.Btn {
+    background-color: #f67c14;
+}
